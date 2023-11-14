@@ -1,0 +1,75 @@
+<html>
+   
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+    </head>   
+
+    <body>
+        <label for="Login">Login:</label>
+        <input name="Login" type="text">
+    
+        <br><br>
+
+        <label for="senha">Senha: </label>
+        <input name="senha" type="password">
+
+        <br><br>
+
+        <label for="Status">Status:</label>
+        <select name="Status">
+            <option value="Inativo">Inativo</option>
+            <option value="Ativo">Ativo</option>
+        </select>
+
+        <br><br>
+
+        <label for="">Tipo:</label>
+        <input name="tipo" type="radio" value="Técnico">
+        <label for="Técnico">Técnico</label>
+        <input name="tipo" type="radio" value="Professor">
+        <label for="Professor">Professor</label>
+        <input name="tipo" type="radio" value="Aluno">
+        <label for="Aluno">Aluno</label>
+
+        <br><br>
+
+        <label for="Data Criação">Data Criação: </label>
+        <input name="Data Criação" type="date">
+
+        <br><br>
+
+        <label for="">Perfil:</label>
+        <input name="Perfil" type="radio" value="Convidado">
+        <label for="Convidado">Convidado</label>
+        <input name="Perfil" type="radio" value="Administrador">
+        <label for="Administrador">Administrador</label>
+    
+        <br><br>
+
+        <label for="Observações">Observações: </label>
+            <br>
+            <textarea name="Observações" cols="30" rows="10"></textarea>
+
+            <br>
+
+            <input type="checkbox" name="Observações" value="1">Compras
+            <input type="checkbox" name="Observações" value="2">Biblioteca
+            <input type="checkbox" name="Observações" value="3">Acadêmico
+
+        <br><br>
+
+        <form>
+            Módulos
+            <input type="checkbox" name="Módulos" value="1">Documentação
+            <input type="checkbox" name="Módulos" value="2">Recursos Humanos
+        </form>
+
+        <br><br>
+
+        <input name="btnSubmeter" type="submit" value="Cadastrar">
+        <input name="btnSubmeter" type="submit" value="Excluir">
+    
+    </body>
+    
+</html>
